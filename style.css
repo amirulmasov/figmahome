@@ -1,0 +1,657 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.sectionOne {
+    width: 100%;
+    height: 673px;
+    /* border: 1px solid red; */
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid green; */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1200px;
+    z-index: 10;
+}
+.logo {
+    position: absolute;
+}
+.shop-explore {
+    width: 200px;
+    /* height: 40px; */
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+}
+.shop {
+    width: 70px;
+    height: 25px;
+    border-radius: 50px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.shop:hover {
+    background-color: gray;
+}
+.shoptext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+}
+.shop:hover .shoptext {
+    color: #fff;
+}
+.explore {
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.explore:hover {
+    background-color: gray;
+}
+.exploretext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+}
+.explore:hover .exploretext {
+    color: #fff;
+}
+.mycart {
+    width: 100px;
+    height: 25px;
+    /* border: 1px solid #000; */
+    border-radius: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.mycart:hover {
+    background-color: gray;
+    border-radius: 50px;
+}
+.mycarttext {
+    color: #000;
+    font-family: 'Pathway Extreme', sans-serif;
+    transition: 0.5s;
+}
+.mycart:hover .mycarttext {
+    color: #fff;
+}
+.compplace {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.imgplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textplace {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.firsttext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.secondtext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.learnmore {
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.learnmore:hover {
+    background-color: #fff;
+}
+.learnmore:hover .thirdtext {
+    color: #000;
+}
+.thirdtext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.sectionTwo {
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textsflex {
+    width: 550px;
+    height: 200px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+}
+.flextextOne {
+    font-size: 55px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.opacitytext {
+    color: #A0A0A0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.getstarted {
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #000; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.getstarted:hover {
+    background-color: gray;
+}
+.getstarted:hover .getstartedtext {
+    color: #fff;
+}
+.getstartedtext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    transition: 0.5s;
+}
+.sectionThree {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 100px;
+}
+.left {
+    width: 800px;
+    height: 680px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.right {
+    width: 800px;
+    height: 680px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.img111 {
+    width: 800px;
+    border-radius: 50px;
+}
+.textflexleftright {
+    width: 400px;
+    height: 100px;
+    /* border: 1px solid #000; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.deskpads {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.hoverdiv {
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.hoverdiv:hover {
+    background-color: gray;
+}
+.hoverdiv:hover .learnmoretextleft {
+    color: #fff;
+}
+.learnmoretextleft {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000;
+    transition: 0.5s;
+}
+.break {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.futured {
+    font-size: 30px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.seewhats {
+    color: #A0A0A0;
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.breakTwo {
+    width: 100%;
+    height: 20px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tochka {
+    width: 10px;
+    height: 10px;
+    /* background-color: #000; */
+}
+.collect {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+}
+.one {
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.one img {
+    border-radius: 50px;
+}
+.textcollect {
+    width: 310px;
+    height: 100px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 5px;
+}
+.textcollect p {
+    color: #A0A0A0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.dollars {
+    font-size: 14px;
+}
+.sectionFour {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFour img {
+    width: 100%;
+    border-radius: 50px;
+}
+.textstolTwo {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.homeofficetext {
+    color: #fff;
+    font-size: 65px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.workintext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.learn111 {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn111:hover {
+    background-color: #fff;
+    border: none;
+}
+.learn111:hover .sectionfourlearnmoretext {
+    color: #000;
+}
+.sectionfourlearnmoretext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.breakFour {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.breakfourflex {
+    width: 800px;
+    height: 200px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.madethehard {
+    font-size: 35px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.bigtextlong {
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #A0A0A0;
+}
+.sectionfive {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionfive img {
+    width: 1100px;
+    border-radius: 50px;
+}
+.breakfive {
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.breakfiveflex{
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.makework {
+    font-size: 35px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.werehere{
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #A0A0A0;
+}
+.bigphotos {
+    width: 100%;
+    height: 1650px;
+    /* border: 1px solid #000; */
+    /* padding: 20px; */
+}
+.birqator {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.birqator img {
+    width: 280px;
+    border-radius: 50px;
+}
+.lastbreak {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.wehope {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.readmore {
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.ranglifuterotasi {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ranglifuter {
+    width: 1800px;
+    height: 500px;
+    background-color: #9AA8B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexfuter {
+    width: 700px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 ;
+}
+.designinp{
+    font-size: 45px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.buildyour{
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.transparentdiv {
+    width: 100%;
+    height: 80px;
+}
+.futer {
+    width: 100%;
+    height: 400px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+}
+.lefttexts {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #A0A0A0;
+}
+.lefttexts p {
+    color: #A0A0A0;
+}
+.righttexts {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 40px;
+}
+.newletter {
+    font-size: 25px;
+    color: #A0A0A0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.signupto {
+    font-size: 15px;
+    color: #A0A0A0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.longdivv {
+    width: 600px;
+    height: 2px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+
+}
+.longdivv2 {
+    width: 60px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv3 {
+    width: 70px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv4 {
+    width: 80px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv5 {
+    width: 90px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv6 {
+    width: 100px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv7 {
+    width: 110px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
+.longdivv8 {
+    width: 120px;
+    height: 1px;
+    background-color: #A0A0A0;
+    border-radius: 50px;
+}
